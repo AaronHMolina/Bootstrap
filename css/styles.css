@@ -51,10 +51,10 @@ p{
   padding: 7% 14%;
   text-align: center;
   position: relative;
-  background: white;
+  background: #CBC3E3;
 }
 .fa-icon{
-  color: #ef8172;
+  color: black;
   margin: 1rem;
 }
 .fa-icon:hover{
@@ -69,7 +69,7 @@ p{
 }
 /*Features Section*/
 #testimonials{
-  background-color: #ef8172;
+  background-color: #280137;
   text-align: center;
   color: white;
 }
@@ -88,7 +88,7 @@ p{
 }
 /*Press Section*/
 #press{
-  background-color: #ef8172;
+  background-color: #280137;
   text-align: center;
   padding: 3%;
 }
@@ -107,7 +107,7 @@ p{
 }
 /*CTA Section*/
 #cta{
-  background-color: #ff4c68;
+  background-color: #CBC3E3;
   padding: 7% 14%;
   text-align: center;
 }
@@ -154,12 +154,15 @@ p{
 @media (max-width: 430px){
   .title-img{
     position: relative;
-    left: 60px;
+    left: 130px;
   }
 
   .draco-img{
     width: 100%;
 
+  }
+  .title-quote{
+    text-align: center;
   }
   #title{
     padding: 0;
@@ -167,3 +170,18 @@ p{
   .column-one{
     text-align: center;
   }
+  .btn-download{
+    margin-left: 120px;
+    margin-right: 50px;
+  }
+@media (max-width: 320px){
+  .title-img{
+    position: relative;
+    left: 120px;
+  }
+  .btn-download{
+    margin-left: 80px;
+    margin-right: 50px;
+  }
+
+}
